@@ -1,1 +1,3 @@
-
+# Part A Notebook you can observe the Data visualizations and Theory 
+# Where Part B you see the Python Notebook where you can obsereve the Data Cleaning and Transformation Techniques as well as interactive Seaborn Data visualizations
+- But Unfortunately due to incompatibility with github we need to open the python notebook in the Google Colab to view the data visualizations
