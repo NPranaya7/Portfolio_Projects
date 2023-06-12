@@ -1,2 +1,2 @@
-# Tableau Public profile: https://public.tableau.com/app/profile/pranay.manikanta.narava
-- In this Profile you can find out my work related to the data vizulaizations using Tableau
+# Check out my Tableau Public profile: https://public.tableau.com/app/profile/pranay.manikanta.narava
+- To see some of the data visualizations I've created. I've been working hard to develop my skills and produce high-quality work that can help people better understand complex information. Whether you're interested in exploring data for business or personal reasons, I'm confident that you'll find something valuable in my profile. So why not take a look today and see what I have to offer?
