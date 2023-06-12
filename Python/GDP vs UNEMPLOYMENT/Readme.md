@@ -11,3 +11,6 @@ Our study reveals that the link between economic growth and unemployment may be 
 Despite these limitations, Okun's Law remains one of the most practical and fundamental approaches to comprehending the relationship between economic growth and unemployment. It can provide valuable insights into discussions about economic growth and its correlation with unemployment rates.
 
 In conclusion, our research shows that while GDP and unemployment have a relationship, other factors also influence the unemployment rate. We will continue to scrutinize the data and examine the impact of different variables, and we will keep you fully informed of our progress.
+
+Part A of this Project contains Detail Visulaizations and Theory
+and Part B contains Data Cleaning and Analysis
