@@ -1,0 +1,4 @@
+# Airline_Revenue Forecasting Using Univariate Time series Model 
+- I am pleased to report that our project. Through the use of time series models, we were able to predict and forecast the revenue of major US airlines operating from major US hubs. We applied five univariate time series models to the data and, with the help of statistical tests, determined that the SARIMA model was the most precise at predicting and forecasting the trend due to seasonality.
+
+This project has demonstrated that time series models, specifically SARIMA, can help identify future revenue with better accuracy. As a result, this will aid airline industries in making better decisions and ultimately improve overall revenue.
