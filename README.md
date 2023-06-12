@@ -1,2 +1,2 @@
 # Portfolio_Projects
-In this Repository you can able to find my portfolio projects. this portfolio Show cases my knowledge, skills through these different projects in different languages and tools like SQL, Python, Tabulea, Docker, Jetson Nano(Edge Computing), 
+- Hey there! I wanted to share my portfolio projects with you. You can check them out in this Repository. I've worked on projects using different languages and tools like SQL, Python, Tabulea, Docker, and Jetson Nano for Edge Computing. I hope you find them informative and useful!
