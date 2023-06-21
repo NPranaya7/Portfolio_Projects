@@ -14,3 +14,8 @@ In conclusion, our research shows that while GDP and unemployment have a relatio
 
 Part A of this Project contains Detail Visulaizations and Theory
 and Part B contains Data Cleaning and Analysis
+
+#### Please Open Part-B File in Google Colab to view the Data visualization 
+- Data visualization are plotted using Plotly 
+- Plotly is a interative browser-based graphing library for Python  
+- Due to incompatiblity of Github with Plotly the Data visualization are not able visuable in Github
