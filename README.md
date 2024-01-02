@@ -1,13 +1,13 @@
 # Portfolio_Projects
 - Hey there! I wanted to share my portfolio projects with you. You can check them out in this Repository. I've worked on various data analysis and modeling projects using different tools like SQL, Python, Tableau, Power BI, Docker, and Jetson Nano for Edge Computing. I hope you find them informative and useful!
 ## Projects:
-•	How does a country's GDP affect the Unemployment rate and what are the other Causes of Unemployment?
-•	Financial Risk Analysis of Foreign Market Using CAPM and Fama French 3 Factor Model.
-•	Airline Revenue Forecasting Using the Univariate Time Series.
-•	Edge Computing: Computer Vision – Image Classification identifying the type of lung diseases.
-•	Speech Emotion recognition.
-•	Breathing Sound Analysis.
-
+•	How does a country's GDP affect the Unemployment rate and what are the other Causes of Unemployment?      
+•	Financial Risk Analysis of Foreign Market Using CAPM and Fama French 3 Factor Model.      
+•	Airline Revenue Forecasting Using the Univariate Time Series.        
+•	Edge Computing: Computer Vision – Image Classification identifying the type of lung diseases.        
+•	Speech Emotion recognition.      
+•	Breathing Sound Analysis.        
+  
 
 ## Summary
 GDP vs Unemployment rate ("How does a country's GDP affect the Unemployment rate and what are the other Causes of Unemployment?")
