@@ -34,5 +34,14 @@
 -	Conducted rigorous model evaluation and fine-tuning, achieving a high accuracy rate of 87% in classifying diverse emotions, including but not limited to happiness, sadness, anger, and neutral states, thus demonstrating the robustness and generalizability of the developed emotion recognition system.      
 
 **Breathing Sound Classification.**
+- During my internship at Sonavi Labs, I worked on an exciting project that aimed to classify breathing sounds. The primary focus of my project was to distinguish between wheezes and crackles in breathing sounds accurately. 
+
+- To achieve this, I began by meticulously processing the data. I started by cleaning the audio and removing any artifacts that could interfere with the sound classification process. I also separated breathing and heartbeat sounds to ensure that the classification was accurate. 
+
+- Next, I employed various modeling techniques to classify the sounds accurately. These techniques included using convolutional neural networks (CNNs), decision trees, and random forests. Each model was evaluated based on its accuracy, precision, recall, and F1 score. 
+
+- After testing several models, I was able to achieve an accuracy of 82% in sound classification. However, I did not stop there. To improve the robustness of the model, I implemented data augmentation techniques. This involved creating new samples by adding background noise, changing the pitch, and adding echo effects to the existing sound samples. 
+
+- Throughout the project, I used Azure ML Studio to conduct the entire process. This platform provided me with all the necessary tools to build, test, and deploy my models. Overall, this project was a great learning experience, and I am proud of the results I was able to achieve.
 
 
