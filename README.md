@@ -33,7 +33,7 @@
 -	Employed feature engineering techniques such as MFCC (Mel-frequency cepstral coefficients) and Mel spectrogram extraction and pitch analysis to effectively capture and represent the subtle nuances in speech patterns related to different emotional states.      
 -	Conducted rigorous model evaluation and fine-tuning, achieving a high accuracy rate of 87% in classifying diverse emotions, including but not limited to happiness, sadness, anger, and neutral states, thus demonstrating the robustness and generalizability of the developed emotion recognition system.      
 
-**Breathing Sound Classification.**
+**Lungs Sound Classification.**
 - During my internship at Sonavi Labs, I worked on an exciting project that aimed to classify breathing sounds. The primary focus of my project was to distinguish between wheezes and crackles in breathing sounds accurately.    
 - To achieve this, I began by meticulously processing the data. I started by cleaning the audio and removing any artifacts that could interfere with the sound classification process. I also separated breathing and heartbeat sounds to ensure that the classification was accurate.      
 - Next, I employed various modeling techniques to classify the sounds accurately. These techniques included using convolutional neural networks (CNNs), decision trees, and random forests. Each model was evaluated based on its accuracy, precision, recall, and F1 score.      
