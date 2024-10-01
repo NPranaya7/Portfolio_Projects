@@ -187,3 +187,13 @@ YARN is a core component of the Hadoop ecosystem, designed to manage and schedul
 - Efficient Resource Utilization: By decoupling resource management and job scheduling from the processing model, YARN enables multiple data processing engines (not just MapReduce) to share a Hadoop cluster.
 - Scalability: It allows for improved scalability by dynamically allocating resources based on needs.
 - Fault Tolerance: It can handle node failures gracefully by redistributing tasks to other healthy nodes.
+
+ ## Challenges of Hadoop
+1. Processing Transactions (Random Access)
+2. When work can't be parallelized
+3. when there are dependencies in the data (Dependencies arise when record one must be processed before record two)
+4. Hadoop is also not good for low-latency data access. (“Low latency” allows small delays, unnoticeable to humans, between an input being processed and the corresponding output providing real-time characteristics.)
+5. Processing lots of small files
+6. intensive calculations with little data 
+
+To deal with the shortcomings of Hadoop, new tools like Hive were built on top of Hadoop. Hive provided SQL-like query and provided users with strong statistical functions. Pig was popular for its multi query approach to cut down the number of times that the data is scanned.
