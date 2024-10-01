@@ -194,6 +194,7 @@ YARN is a core component of the Hadoop ecosystem, designed to manage and schedul
 3. when there are dependencies in the data (Dependencies arise when record one must be processed before record two)
 4. Hadoop is also not good for low-latency data access. (“Low latency” allows small delays, unnoticeable to humans, between an input being processed and the corresponding output providing real-time characteristics.)
 5. Processing lots of small files
-6. intensive calculations with little data 
+6. intensive calculations with little data
+7. Not good for real time processing but really good for batch processing
 
 To deal with the shortcomings of Hadoop, new tools like Hive were built on top of Hadoop. Hive provided SQL-like query and provided users with strong statistical functions. Pig was popular for its multi query approach to cut down the number of times that the data is scanned.
