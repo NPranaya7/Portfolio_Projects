@@ -1,4 +1,3 @@
-![Screenshot (11)](https://github.com/user-attachments/assets/a939c4de-6d14-4c72-b457-62ea141a91af)
 
 ![Screenshot (12)](https://github.com/user-attachments/assets/d8b8a9bb-fa8c-456f-977e-e44c492e0ac2)
 
