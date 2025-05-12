@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pranay Narava - Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 90%;
+            max-width: 900px;
+            margin: auto;
+            padding: 2em 0;
+            text-align: center;
+        }
+        h1, h2, h3 {
+            color: #0056b3;
+            margin-bottom: 0.5em;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            object-fit: cover;
+        }
+        .section {
+            background-color: #ffffff;
+            padding: 2em;
+            margin-bottom: 2em;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            margin-bottom: 0.5em;
+        }
+        .download-button {
+            background-color: #0056b3;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .download-button:hover {
+            background-color: #003f7f;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="resume">
+        <img src="Pranay07.png" alt="Pranay Manikanta Narava" class="profile-pic">
+        <h1>Pranay Manikanta Narava</h1>
+        <p>Data Scientist | AI Engineer | Machine Learning Specialist</p>
+        <button class="download-button" onclick="downloadResume()">Download as PDF</button>
+        <div class="section contact">
+            <h2>Contact</h2>
+            <ul>
+                <li>Email: npranayamanikanta@gmail.com</li>
+                <li>Phone: 443-839-2569</li>
+                <li>Location: Dallas, TX || Willing to Relocate</li>
+                <li>GitHub: github.com/pranaynarava</li>
+                <li>LinkedIn: linkedin.com/in/pranaynarava</li>
+            </ul>
+        </div>
+        <div class="section skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Programming Languages: Python, GO, R, SQL, SAS, Dart, MATLAB</li>
+                <li>Technologies: Azure ML, Databricks, Power BI, Tableau, Git & GitHub, MS Excel, Figma, Flutter, AWS SageMaker, Google Cloud AI</li>
+                <li>Frameworks: Spark, Hadoop, Dask, Flask, Airflow, TensorFlow, PyTorch, Scikit-Learn, Keras</li>
+                <li>Databases: SQL Server, MySQL, MongoDB, PostgreSQL, Snowflake, Cassandra</li>
+                <li>Big Data & Cloud Technologies: Azure Data Factory, AWS Redshift, Google Big Query</li>
+                <li>Other Skills: EDA, LLM, Feature Engineering, A/B Testing, Data Pipeline Optimization, Experiment Design, Real-Time Data Processing</li>
+            </ul>
+        </div>
+        <div class="section experience">
+            <h2>Experience</h2>
+            <ul>
+                <li><strong>Data Scientist at T-Mobile (Nov 2024 - Present)</strong><br>Developed LLM-based solutions using NLP and RAG techniques for document analysis. Automated data workflows, created Power BI dashboards, and integrated cloud services to streamline data processing.</li>
+                <li><strong>Data Scientist at Sonavi Labs (Jun 2023 - Dec 2024)</strong><br>Led deep learning projects for medical diagnostics, developed scalable data pipelines, and built CI/CD pipelines to automate model deployment. Integrated real-time inference systems for remote clinical decision-making.</li>
+                <li><strong>Research Fellow (Business Analyst) at BWTech@UMBC (Jan 2023 - May 2023)</strong><br>Conducted market research for early-stage startups, built business intelligence dashboards, and developed AI-powered sentiment analysis models for strategic insights.</li>
+                <li><strong>Data Scientist at Magnaquest Technologies (Jun 2019 - Dec 2021)</strong><br>Built scalable data pipelines, conducted customer behavior analysis, and developed predictive models for personalized marketing.</li>
+            </ul>
+        </div>
+        <div class="section projects">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Real-Time Stock Prediction and Suggestion System</strong><br>Leveraged GPT-4, news APIs, and LLMs for real-time stock analysis and prediction, providing actionable investment insights.</li>
+                <li><strong>Lung Sound Classification</strong><br>Developed deep learning models for respiratory disease diagnostics, achieving high accuracy through advanced audio processing techniques.</li>
+                <li><strong>LLM-Based Document Intelligence System</strong><br>Built a RAG system using GPT-4, Lang Chain, and FAISS for intelligent document analysis and query resolution.</li>
+                <li><strong>Customer Insights Data Pipeline</strong><br>Created interactive Power BI dashboards to analyze customer behavior and segment profiles, improving business decision-making.</li>
+            </ul>
+        </div>
+        <div class="section education">
+            <h2>Education</h2>
+            <ul>
+                <li>M.S. in Data Science, University of Maryland Baltimore County (Jan 2022 - Dec 2023)</li>
+                <li>B.Tech in Electronics & Communications, K L University (Jun 2016 - May 2020)</li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        function downloadResume() {
+            const resumeElement = document.getElementById('resume');
+            const options = {
+                margin: 0.5,
+                filename: 'Pranay_Resume.pdf',
+                image: { type: 'jpeg', quality: 0.98 },
+                html2canvas: { scale: 2 },
+                jsPDF: { format: 'a4', orientation: 'portrait' }
+            };
+            html2pdf().set(options).from(resumeElement).save();
+        }
+    </script>
+</body>
+</html>
