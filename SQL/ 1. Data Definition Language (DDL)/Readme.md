@@ -1,1 +1,1 @@
-CMD's for Create or modify database structure.
+# CMD's for Create or modify database structure.
